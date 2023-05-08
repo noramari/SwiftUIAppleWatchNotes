@@ -28,6 +28,7 @@ struct HeaderView: View {
                 Capsule()
                     .frame(height: 1)
             }
+            .tint(.accentColor)
         }
     }
 }
