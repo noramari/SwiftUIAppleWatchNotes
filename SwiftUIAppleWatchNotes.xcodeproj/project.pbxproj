@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4775EBBA2A08BE3600247195 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775EBB92A08BE3600247195 /* Note.swift */; };
+		4775EBBC2A08C7FF00247195 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775EBBB2A08C7FF00247195 /* DetailView.swift */; };
+		4775EBBE2A08CC6100247195 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775EBBD2A08CC6100247195 /* CreditsView.swift */; };
+		4775EBC12A08CCBF00247195 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775EBC02A08CCBF00247195 /* HeaderView.swift */; };
 		47D61E9D2A07A3E10021A3EB /* SwiftUIAppleWatchNotes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 47D61E9C2A07A3E10021A3EB /* SwiftUIAppleWatchNotes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		47D61EA22A07A3E10021A3EB /* SwiftUIAppleWatchNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D61EA12A07A3E10021A3EB /* SwiftUIAppleWatchNotesApp.swift */; };
 		47D61EA42A07A3E10021A3EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D61EA32A07A3E10021A3EB /* ContentView.swift */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		4775EBB92A08BE3600247195 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		4775EBBB2A08C7FF00247195 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4775EBBD2A08CC6100247195 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		4775EBC02A08CCBF00247195 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		47D61E962A07A3E10021A3EB /* SwiftUIAppleWatchNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppleWatchNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D61E9C2A07A3E10021A3EB /* SwiftUIAppleWatchNotes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIAppleWatchNotes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D61EA12A07A3E10021A3EB /* SwiftUIAppleWatchNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppleWatchNotesApp.swift; sourceTree = "<group>"; };
@@ -64,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				47D61EA32A07A3E10021A3EB /* ContentView.swift */,
+				4775EBBB2A08C7FF00247195 /* DetailView.swift */,
+				4775EBBD2A08CC6100247195 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -74,6 +82,14 @@
 				4775EBB92A08BE3600247195 /* Note.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4775EBBF2A08CCA700247195 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4775EBC02A08CCBF00247195 /* HeaderView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		47D61E8F2A07A3E00021A3EB = {
@@ -96,6 +112,7 @@
 		47D61EA02A07A3E10021A3EB /* SwiftUIAppleWatchNotes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				4775EBBF2A08CCA700247195 /* Component */,
 				4775EBB82A08BE1700247195 /* Model */,
 				47D61EA12A07A3E10021A3EB /* SwiftUIAppleWatchNotesApp.swift */,
 				4775EBB72A08B7D100247195 /* View */,
@@ -212,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D61EA42A07A3E10021A3EB /* ContentView.swift in Sources */,
+				4775EBC12A08CCBF00247195 /* HeaderView.swift in Sources */,
+				4775EBBC2A08C7FF00247195 /* DetailView.swift in Sources */,
 				47D61EA22A07A3E10021A3EB /* SwiftUIAppleWatchNotesApp.swift in Sources */,
+				4775EBBE2A08CC6100247195 /* CreditsView.swift in Sources */,
 				4775EBBA2A08BE3600247195 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
